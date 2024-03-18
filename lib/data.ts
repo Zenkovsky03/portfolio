@@ -38,7 +38,23 @@ export const experiencesData = [
         description:
             "I graduated after 4 years of studying. I immediately found a job as a backend-end developer.",
         icon: React.createElement(LuGraduationCap),
-        date: "2019-2023",
+        date: "2019 - 2023",
+    },
+    {
+        title: "BlueRider",
+        location: "Bialystok",
+        description:
+            "My first expirience in IT job",
+        icon: React.createElement(LuGraduationCap),
+        date: "july 2022",
+    },
+    {
+        title: "PB",
+        location: "Bialystok",
+        description:
+            "Student Computer Science",
+        icon: React.createElement(LuGraduationCap),
+        date: "2023 - now",
     },
 ] as const;
 
@@ -46,8 +62,29 @@ export const projectsData = [
     {
         title: "CorgyConnect",
         description:
-            "Its a blog site where you can drscribe your dog",
-        tags: ["HTML", "CSS", "POSTGRES", "Django", "Python"],
+            "A website dedicated to dog lover built using django, drf and templates",
+        tags: ["HTML", "CSS", "POSTGRES", "Django", "Python", "DRF"],
+        imageUrl: defaultJPG,
+    },
+    {
+        title: "DreamJob",
+        description:
+            "A site looks like clone justjoin.it",
+        tags: ["Next.js", "CSS", "POSTGRES", "Django", "Python"],
+        imageUrl: defaultJPG,
+    },
+    {
+        title: "drinksAPI",
+        description:
+            "Simple API for my fav drinks",
+        tags: ["Django", "Python", "DRF"],
+        imageUrl: defaultJPG,
+    },
+    {
+        title: "myNote",
+        description:
+            "Notebook made in django and react",
+        tags: ["Django", "Python", "DRF", "React", "CSS", "HTML", "Javascript"],
         imageUrl: defaultJPG,
     },
 ] as const;
