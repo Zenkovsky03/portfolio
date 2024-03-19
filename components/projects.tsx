@@ -1,6 +1,8 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import SectionHeading from "@/components/section-heading";
 import {projectsData} from "@/lib/data";
+import Project from "@/components/project";
+
 export default function Projects(){
     return (
         <section>
@@ -12,7 +14,6 @@ export default function Projects(){
                         <React.Fragment key={index}>
                             <Project {...project}/>
                         </React.Fragment>
-
                     ))
                 }
             </div>
@@ -20,14 +21,3 @@ export default function Projects(){
     );
 }
 
-type ProjectProps = (typeof projectsData)[number];
-
-function Project({
-    title,
-    description,
-    tags,
-    imageUrl
-
-}:ProjectProps){
-    return <div>{title}</div>
-}

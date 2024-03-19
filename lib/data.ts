@@ -36,7 +36,7 @@ export const experiencesData = [
         title: "ZSE",
         location: "Bialystok",
         description:
-            "I graduated after 4 years of studying. I immediately found a job as a backend-end developer.",
+            "Final technical school",
         icon: React.createElement(LuGraduationCap),
         date: "2019 - 2023",
     },
