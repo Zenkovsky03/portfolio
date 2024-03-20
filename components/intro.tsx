@@ -26,13 +26,16 @@ export default function Intro() {
                     </motion.div>
                 </div>
             </div>
-            <motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-                      initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}}>
+
+            <motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl" initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}}>
+
                 <span className="font-bold">Hello, I'm Mateusz.</span> I'm a{" "}
                 <span className="font-bold">backend developer</span> I enjoy
                 learning and creating<span className="italic"> webpage</span>. My focus is{" "}
                 <span className="underline">Python (Django & DRF)</span>.
+
             </motion.h1>
+
             <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
                         initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}} transition={{delay: 0.1,}}>
 
@@ -48,6 +51,7 @@ export default function Intro() {
 
                 <a href="https://github.com/Zenkovsky03" target="_blank" className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-110
                  hover:scale-[1.15] active:scale-[1.15] hover:text-gray-950 transition cursor-pointer border border-black/10"><FaGithubSquare/></a>
+
             </motion.div>
         </section>
     )
