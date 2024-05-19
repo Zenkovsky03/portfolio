@@ -3,7 +3,7 @@ import {CgWorkAlt} from "react-icons/cg";
 import {FaReact} from "react-icons/fa";
 import {LuGraduationCap} from "react-icons/lu";
 import defaultJPG from "@/public/default.jpg";
-
+import CorgyConnect from "@/public/CorgyConnect.png";
 export const links = [
     {
         name: "Home",
@@ -33,28 +33,28 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "ZSE",
+        title: "Secondary Technical School of Electrical Engineering",
         location: "Bialystok",
         description:
-            "Final technical school",
+            "Programming technician, INF04, INF03",
         icon: React.createElement(LuGraduationCap),
         date: "2019 - 2023",
     },
     {
-        title: "BlueRider",
+        title: "BlueRider.Software",
         location: "Bialystok",
         description:
-            "My first expirience in IT job",
+            "Project Manager Internship",
         icon: React.createElement(LuGraduationCap),
-        date: "july 2022",
+        date: "june -july 2022",
     },
     {
-        title: "PB",
+        title: "Bialystok University of Technology",
         location: "Bialystok",
         description:
-            "Student Computer Science",
+            "Computer science",
         icon: React.createElement(LuGraduationCap),
-        date: "2023 - now",
+        date: "2023 - 2027",
     },
 ] as const;
 
@@ -64,27 +64,13 @@ export const projectsData = [
         description:
             "A website dedicated to dog lover built using django, drf and templates",
         tags: ["HTML", "CSS", "POSTGRES", "Django", "Python", "DRF"],
-        imageUrl: defaultJPG,
+        imageUrl: CorgyConnect,
     },
     {
-        title: "DreamJob",
+        title: "itGateway",
         description:
             "A site looks like clone justjoin.it",
-        tags: ["Next.js", "CSS", "POSTGRES", "Django", "Python"],
-        imageUrl: defaultJPG,
-    },
-    {
-        title: "drinksAPI",
-        description:
-            "Simple API for my fav drinks",
-        tags: ["Django", "Python", "DRF"],
-        imageUrl: defaultJPG,
-    },
-    {
-        title: "myNote",
-        description:
-            "Notebook made in django and react",
-        tags: ["Django", "Python", "DRF", "React", "CSS", "HTML", "Javascript"],
+        tags: ["Next.js", "CSS", "POSTGRES", "Django", "Python", "AWS", "maprequest"],
         imageUrl: defaultJPG,
     },
 ] as const;
