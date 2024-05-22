@@ -1,8 +1,8 @@
 "use client"
 import React, {useState, createContext, useContext} from 'react'
 import {links} from "@/lib/data";
+import type {SectionName} from "@/lib/types";
 
-type SectionName = (typeof links)[number]["name"]
 
 type ActiveSectionContextProviderProps = {
     children: React.ReactNode
@@ -18,6 +18,7 @@ export const ActiveSectionContext = createContext<ActiveSectionContextType | nul
 export default function ActiveSectionContextProvider({ children }: ActiveSectionContextProviderProps){
     const [activeSection, setActiveSection] = useState<SectionName>("Home");
     const [timeOfLastClick, setTimeOfLastClick] = useState(0);
+    //musimy to śledzić, aby tymczasowo wyłączyć obserwatora, gdy użytkownik kliknie link
     return(
         <ActiveSectionContext.Provider value={{
             activeSection,
