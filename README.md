@@ -40,4 +40,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 >>>>>>> 58e2f005600f09bd9ed3e8b27a6cd33b1c2a3e10
 > 
 > 
-> NEXT.js + tailwind + typescript
+> NEXT.js + tailwind + typescript +test
